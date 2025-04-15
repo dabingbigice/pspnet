@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+  <component name="PyNamespacePackagesService">
+    <option name="namespacePackageFolders">
+      <list>
+        <option value="$MODULE_DIR$/model_data" />
+        <option value="$MODULE_DIR$/logs" />
+        <option value="$MODULE_DIR$/VOCdevkit" />
+      </list>
+    </option>
+  </component>
+</module>
