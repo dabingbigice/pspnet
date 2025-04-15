@@ -6,7 +6,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 
-def CE_Loss(inputs, target, cls_weights, num_classes=21):
+def CE_Loss(inputs, target, cls_weights, num_classes=3):
     n, c, h, w = inputs.size()
     nt, ht, wt = target.size()
     if h != ht and w != wt:
